@@ -86,6 +86,36 @@ function Projects() {
               demoLink="https://notes-app-sw.netlify.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shorty}
+              isBlog={false}
+              title="Movie Land"
+              description="Movie Land is a movie searching application built using Reactjs.The application is fully responsive in all Devices and has a search option to search movies"
+              ghLink="https://github.com/ahmadswalih/Movie-Land"
+              demoLink="https://movie-application-swa.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shorty}
+              isBlog={false}
+              title="Breaking Bad Cast"
+              description="Breaking Bad Cast is a fan-made website which shows all the characters from the Great American TV Series Breaking Bad"
+              ghLink="https://github.com/ahmadswalih/breaking-bad-website"
+              demoLink="https://breakingbad-proj.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shorty}
+              isBlog={false}
+              title="Advice Generator"
+              description="Advice Generator is web-application which generates advices / quotes. Users will get unique advices on every refresh . "
+              ghLink="https://github.com/ahmadswalih/advice-Generator"
+              demoLink="https://celadon-praline-d67394.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
       <p style={{ color: "#fff" }}>

@@ -13,7 +13,9 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright"></Col>
+        <Col style={{ color: "#fff" }} md="4" className="footer-copywright">
+          ahmadswalih777@gmail.com
+        </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Ahamad Swalih</h3>
         </Col>
