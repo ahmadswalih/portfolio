@@ -34,9 +34,6 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
           <Col></Col>
-          <Link className="link" to="/project">
-            <a href="/project"> Projects</a>
-          </Link>
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>

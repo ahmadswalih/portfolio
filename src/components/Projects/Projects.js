@@ -8,6 +8,9 @@ import gitfire from "../../Assets/Projects/gitfire.png";
 import recipe from "../../Assets/Projects/recipe.png";
 import shorty from "../../Assets/Projects/shorty.png";
 import ultra from "../../Assets/Projects/ultra.png";
+import breakingbad from "../../Assets/Projects/breakingbad.png";
+import advicegenerator from "../../Assets/Projects/advicegenerator.png";
+import movieland from "../../Assets/Projects/movieland.png";
 
 function Projects() {
   return (
@@ -88,7 +91,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shorty}
+              imgPath={movieland}
               isBlog={false}
               title="Movie Land"
               description="Movie Land is a movie searching application built using Reactjs.The application is fully responsive in all Devices and has a search option to search movies"
@@ -98,7 +101,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shorty}
+              imgPath={breakingbad}
               isBlog={false}
               title="Breaking Bad Cast"
               description="Breaking Bad Cast is a fan-made website which shows all the characters from the Great American TV Series Breaking Bad"
@@ -108,7 +111,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shorty}
+              imgPath={advicegenerator}
               isBlog={false}
               title="Advice Generator"
               description="Advice Generator is web-application which generates advices / quotes. Users will get unique advices on every refresh . "

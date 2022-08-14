@@ -1,6 +1,8 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 function AboutCard() {
   return (
@@ -41,6 +43,13 @@ function AboutCard() {
           </p>
           <footer className="blockquote-footer">ahmadswalih</footer>
         </blockquote>
+
+        <Button style={{ marginTop: "2px" }}>
+          {" "}
+          <Link className="btn btn-purple btn-lg text-white" to="/project">
+            Projects
+          </Link>
+        </Button>
       </Card.Body>
     </Card>
   );
