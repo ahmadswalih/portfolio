@@ -11,7 +11,10 @@ import ultra from "../../Assets/Projects/ultra.png";
 import breakingbad from "../../Assets/Projects/breakingbad.png";
 import advicegenerator from "../../Assets/Projects/advicegenerator.png";
 import movieland from "../../Assets/Projects/movieland.png";
-
+import weather from "../../Assets/Projects/weather.png";
+import crypto from "../../Assets/Projects/crypto.png";
+import contact from "../../Assets/Projects/contact.png";
+import banking from "../../Assets/Projects/banking.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -119,6 +122,46 @@ function Projects() {
               demoLink="https://celadon-praline-d67394.netlify.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather}
+              isBlog={false}
+              title="Weather Application"
+              description="Weather Application using React Js . The applicaiton uses api from the openweather website. Users can search the Weather based on city/country.The application is Bootstrapped with Create React App ."
+              ghLink="https://github.com/ahmadswalih/React-Weather-App"
+              demoLink="https://proj-weather.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crypto}
+              isBlog={false}
+              title="Crypto Tracker"
+              description="A Portfolio Project that Updates The Value of Crpto Currencies.The application uses API from the website CoinGecko .This is a Next.js project bootstrapped with create-next-app."
+              ghLink="https://github.com/ahmadswalih/Crpto"
+              demoLink="https://proj-crypto.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={contact}
+              isBlog={false}
+              title="Contact Application"
+              description="Contacts is a user-contact saving application using ReactJs and Google Firebase.The application can perform all CRUD operations and also user can upload images related to that particular contact."
+              ghLink="https://github.com/ahmadswalih/contact-app"
+              demoLink="https://neon-jalebi-d7babc.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={banking}
+              isBlog={false}
+              title="Banking UI Template"
+              description="Banking UI Template is a UI template for banking sector . The whole website is crafted using Bootstrap"
+              ghLink="https://github.com/ahmadswalih/Banking-UI-Template"
+              demoLink="https://ahmadswalih.github.io/Banking-UI-Template/"
+            />
+          </Col>
         </Row>
       </Container>
       <p style={{ color: "#fff" }}>
@@ -126,7 +169,8 @@ function Projects() {
         <a
           className="link"
           style={{ cursor: "pointer", color: "#fff" }}
-          href="https://github.com/ahmadswalih">
+          href="https://github.com/ahmadswalih"
+        >
           Github Profile
         </a>
       </p>
