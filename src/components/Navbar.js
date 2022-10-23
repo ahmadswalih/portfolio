@@ -13,7 +13,7 @@ import {
   AiOutlineUser,
   AiOutlineAntDesign,
 } from "react-icons/ai";
-
+import { HiArrowNarrowRight } from "react-icons/hi";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -35,7 +35,8 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}>
+      className={navColour ? "sticky" : "navbar"}
+    >
       <Container>
         <Navbar.Brand className="d-flex">
           <Link to="/">
@@ -47,7 +48,8 @@ function NavBar() {
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
-          }}>
+          }}
+        >
           <span></span>
           <span></span>
           <span></span>
@@ -64,7 +66,8 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(false)}>
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
@@ -73,7 +76,8 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/project"
-                onClick={() => updateExpanded(false)}>
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
@@ -85,8 +89,18 @@ function NavBar() {
               <Nav.Link
                 href="https://www.behance.net/ahmadswalihcm"
                 target="_blank"
-                onClick={() => updateExpanded(false)}>
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineAntDesign style={{ marginBottom: "2px" }} /> Designs
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                href="https://blog.ahmadswalih.com/"
+                target=""
+                onClick={() => updateExpanded(false)}
+              >
+                <HiArrowNarrowRight style={{ marginBottom: "2px" }} /> Blog
               </Nav.Link>
             </Nav.Item>
 
@@ -94,7 +108,8 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/resume"
-                onClick={() => updateExpanded(false)}>
+                onClick={() => updateExpanded(false)}
+              >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
@@ -103,7 +118,8 @@ function NavBar() {
               <Button
                 href="https://github.com/ahmadswalih/portfolio"
                 target="_blank"
-                className="fork-btn-inner">
+                className="fork-btn-inner"
+              >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
