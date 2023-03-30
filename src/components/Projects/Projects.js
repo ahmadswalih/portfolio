@@ -119,7 +119,7 @@ function Projects() {
               title="Advice Generator"
               description="Advice Generator is web-application which generates advices / quotes. Users will get unique advices on every refresh . "
               ghLink="https://github.com/ahmadswalih/advice-Generator"
-              demoLink="https://celadon-praline-d67394.netlify.app/"
+              demoLink="https://quotes-generator.ahmadswalih.com/"
             />
           </Col>
           <Col md={4} className="project-card">
