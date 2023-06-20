@@ -96,7 +96,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://blog.ahmadswalih.com/"
+                href="https://swalih.hashnode.dev/"
                 target=""
                 onClick={() => updateExpanded(false)}
               >
