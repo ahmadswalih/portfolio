@@ -22,31 +22,20 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}>
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
-
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={"mailto:ahmadswalih777@gmail.com"}
             target="_blank"
-            style={{ maxWidth: "250px" }}>
+            style={{
+              maxWidth: "250px",
+              marginBottom: "300px",
+              marginTop: "120px",
+            }}
+          >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Mail Me
           </Button>
         </Row>
       </Container>
