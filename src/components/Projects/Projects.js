@@ -34,7 +34,7 @@ function Projects() {
               title="Quiz App"
               description="An Opensource Quiz application using Reactjs.Users can select their preferred field and start quiz. Each Quiz is consist of 10 questions and every correct answer has 1 point . "
               ghLink="https://github.com/ahmadswalih/quiz-app"
-              demoLink="https://intuitive-quiz-app-sw.netlify.app/"
+              demoLink="https://quiz.ahmadswalih.com"
             />
           </Col>
 
@@ -45,7 +45,7 @@ function Projects() {
               title="Recipe Application"
               description="It's an application were users can find almost every recipe's including their ingredients list.Also users can search their recipes."
               ghLink="https://github.com/ahmadswalih/Recipe-app-react"
-              demoLink="https://recipe-app-swalih.netlify.app/"
+              demoLink="https://recipe.ahmadswalih.com/"
             />
           </Col>
 
@@ -56,7 +56,7 @@ function Projects() {
               title="Ultra Template"
               description="Ultra is an opensource template for web developers as well as for  designers.The template is under MIT license and free to use and edit ."
               ghLink="https://github.com/ahmadswalih/ULTRA-react-template"
-              demoLink="https://swalih-proj.netlify.app/"
+              demoLink="https://ultra-banking.ahmadswalih.com/"
             />
           </Col>
 
@@ -64,10 +64,10 @@ function Projects() {
             <ProjectCard
               imgPath={gitfire}
               isBlog={false}
-              title="Git Fire"
-              description="Git-Fire is a Github firebase application to search the github users and their repository lists. The application shows the public repositories of desired users and also their availablity to work ."
+              title="Git Finder"
+              description="Git-Finder is a Github firebase application to search the github users and their repository lists. The application shows the public repositories of desired users and also their availablity to work ."
               ghLink="https://github.com/ahmadswalih/GitFire"
-              demoLink="https://git-fire-sw.netlify.app/"
+              demoLink="https://find-git.ahmadswalih.com/ "
             />
           </Col>
 
@@ -78,7 +78,7 @@ function Projects() {
               title="Pokedex"
               description="Pokedex is a pokemon character listing application. The application uses pokmon api to get data and shows features of each charactes."
               ghLink="https://github.com/ahmadswalih/pokedex-nextjs"
-              demoLink="https://pokedex-sw.netlify.app/"
+              demoLink="https://pokedex.ahmadswalih.com/"
             />
           </Col>
 
@@ -89,7 +89,7 @@ function Projects() {
               title="Shorty"
               description="Shorty is a web application where users can save their notes upto 200 characters. The application is mainly focused for developers to note quick points."
               ghLink="https://github.com/ahmadswalih/notes-app"
-              demoLink="https://notes-app-sw.netlify.app/"
+              demoLink="https://shorty.ahmadswalih.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -99,7 +99,7 @@ function Projects() {
               title="Movie Land"
               description="Movie Land is a movie searching application built using Reactjs.The application is fully responsive in all Devices and has a search option to search movies"
               ghLink="https://github.com/ahmadswalih/Movie-Land"
-              demoLink="https://movie-application-swa.netlify.app/"
+              demoLink="https://movie-finder.ahmadswalih.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -129,7 +129,7 @@ function Projects() {
               title="Weather Application"
               description="Weather Application using React Js . The applicaiton uses api from the openweather website. Users can search the Weather based on city/country.The application is Bootstrapped with Create React App ."
               ghLink="https://github.com/ahmadswalih/React-Weather-App"
-              demoLink="https://proj-weather.netlify.app/"
+              demoLink="https://weather.ahmadswalih.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -149,7 +149,7 @@ function Projects() {
               title="Contact Application"
               description="Contacts is a user-contact saving application using ReactJs and Google Firebase.The application can perform all CRUD operations and also user can upload images related to that particular contact."
               ghLink="https://github.com/ahmadswalih/contact-app"
-              demoLink="https://neon-jalebi-d7babc.netlify.app/"
+              demoLink="https://contact-app.ahmadswalih.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -159,7 +159,7 @@ function Projects() {
               title="Banking UI Template"
               description="Banking UI Template is a UI template for banking sector . The whole website is crafted using Bootstrap"
               ghLink="https://github.com/ahmadswalih/Banking-UI-Template"
-              demoLink="https://ahmadswalih.github.io/Banking-UI-Template/"
+              demoLink="https://banking-ui.ahmadswalih.com/"
             />
           </Col>
         </Row>
