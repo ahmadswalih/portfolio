@@ -15,6 +15,8 @@ import weather from "../../Assets/Projects/weather.png";
 import crypto from "../../Assets/Projects/crypto.png";
 import contact from "../../Assets/Projects/contact.png";
 import banking from "../../Assets/Projects/banking.png";
+import dnslookup from "../../Assets/Projects/dnslookup.png";
+import rayeesportfolio from "../../Assets/Projects/rayees-portfolio.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -27,6 +29,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dnslookup}
+              isBlog={false}
+              title="DNS Lookup"
+              description="DNS Lookup is a user-friendly web application designed to assist individuals, web developers, and network administrators in retrieving essential information about domain names. This tool provides detailed insights into DNS records, domain expiration dates, and ownership information. Whether you're working on web projects, managing network configurations, or simply exploring domain-related details, DNS Lookup simplifies the process and provides valuable data at your fingertips. "
+              ghLink="https://github.com/ahmadswalih/dns-lookup"
+              demoLink="https://dnslookup.ahmadswalih.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rayeesportfolio}
+              isBlog={false}
+              title="Portfolio Project"
+              description="This is a portfolio for my friend Rayees who wants a game-themed portfolio built using Next.js and Framer Motion."
+              ghLink="https://rayees.netlify.app/"
+              demoLink="https://rayees.netlify.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={quiz}
