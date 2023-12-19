@@ -85,6 +85,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={shorty}
+              isBlog={false}
+              title="Shorty"
+              description="Shorty is a web application where users can save their notes upto 200 characters. The application is mainly focused for developers to note quick points."
+              ghLink="https://github.com/ahmadswalih/notes-app"
+              demoLink="https://shorty.ahmadswalih.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={gitfire}
               isBlog={false}
               title="Git Finder"
@@ -105,16 +116,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={shorty}
-              isBlog={false}
-              title="Shorty"
-              description="Shorty is a web application where users can save their notes upto 200 characters. The application is mainly focused for developers to note quick points."
-              ghLink="https://github.com/ahmadswalih/notes-app"
-              demoLink="https://shorty.ahmadswalih.com/"
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={movieland}
