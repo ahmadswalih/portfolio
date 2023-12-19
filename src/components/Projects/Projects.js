@@ -17,16 +17,17 @@ import contact from "../../Assets/Projects/contact.png";
 import banking from "../../Assets/Projects/banking.png";
 import dnslookup from "../../Assets/Projects/dnslookup.png";
 import rayeesportfolio from "../../Assets/Projects/rayees-portfolio.png";
+import hilinkdemo from "../../Assets/Projects/hilink-demo.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple">Projects That I'have worked on </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          click on the "demo" to view the project
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -34,7 +35,7 @@ function Projects() {
               imgPath={dnslookup}
               isBlog={false}
               title="DNS Lookup"
-              description="DNS Lookup is a user-friendly web application designed to assist individuals, web developers, and network administrators in retrieving essential information about domain names. This tool provides detailed insights into DNS records, domain expiration dates, and ownership information. Whether you're working on web projects, managing network configurations, or simply exploring domain-related details, DNS Lookup simplifies the process and provides valuable data at your fingertips. "
+              description="DNS Lookup is a user-friendly tool for individuals, web developers, and network administrators. It simplifies retrieving domain information, providing insights into DNS records, expiration dates, and ownership details for various tasks."
               ghLink="https://github.com/ahmadswalih/dns-lookup"
               demoLink="https://dnslookup.ahmadswalih.com/"
             />
@@ -47,6 +48,28 @@ function Projects() {
               description="This is a portfolio for my friend Rayees who wants a game-themed portfolio built using Next.js and Framer Motion."
               ghLink="https://rayees.netlify.app/"
               demoLink="https://rayees.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hilinkdemo}
+              isBlog={false}
+              title="HiLink Travel Website"
+              description="HiLink Travel website is a travel agency website . the website is created using nextjs and styled using tailwindcss . the website is fully responsive in all devices."
+              ghLink="https://github.com/ahmadswalih/quiz-app"
+              demoLink="https://quiz.ahmadswalih.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shorty}
+              isBlog={false}
+              title="Shorty"
+              description="Shorty is a web application where users can save their notes upto 200 characters. The application is mainly focused for developers to note quick points."
+              ghLink="https://github.com/ahmadswalih/notes-app"
+              demoLink="https://shorty.ahmadswalih.com/"
             />
           </Col>
 
@@ -80,17 +103,6 @@ function Projects() {
               description="Ultra is an opensource template for web developers as well as for  designers.The template is under MIT license and free to use and edit ."
               ghLink="https://github.com/ahmadswalih/ULTRA-react-template"
               demoLink="https://ultra-banking.ahmadswalih.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={shorty}
-              isBlog={false}
-              title="Shorty"
-              description="Shorty is a web application where users can save their notes upto 200 characters. The application is mainly focused for developers to note quick points."
-              ghLink="https://github.com/ahmadswalih/notes-app"
-              demoLink="https://shorty.ahmadswalih.com/"
             />
           </Col>
 
