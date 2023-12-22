@@ -32,7 +32,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dnslookup}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/c7ip7n0otuxukrvqnxhy"
               isBlog={false}
               title="DNS Lookup"
               description="DNS Lookup is a user-friendly tool for individuals, web developers, and network administrators. It simplifies retrieving domain information, providing insights into DNS records, expiration dates, and ownership details for various tasks."
@@ -42,7 +42,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rayeesportfolio}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/pimmmcaevrwix6kadrfi"
               isBlog={false}
               title="Portfolio Project"
               description="This is a portfolio for my friend Rayees who wants a game-themed portfolio built using Next.js and Framer Motion."
@@ -53,18 +53,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hilinkdemo}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/ihidurr5iakxhg06dxsl"
               isBlog={false}
               title="HiLink Travel Website"
               description="HiLink Travel website is a travel agency website . the website is created using nextjs and styled using tailwindcss . the website is fully responsive in all devices."
-              ghLink="https://github.com/ahmadswalih/quiz-app"
-              demoLink="https://quiz.ahmadswalih.com"
+              ghLink="https://hilink-demo.ahmadswalih.com/"
+              demoLink="https://hilink-demo.ahmadswalih.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shorty}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/e3tr5agpq4ieijcyvtum"
               isBlog={false}
               title="Shorty"
               description="Shorty is a web application where users can save their notes upto 200 characters. The application is mainly focused for developers to note quick points."
@@ -75,7 +75,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quiz}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/p4yma5r8phdcsxaf3uxi"
               isBlog={false}
               title="Quiz App"
               description="An Opensource Quiz application using Reactjs.Users can select their preferred field and start quiz. Each Quiz is consist of 10 questions and every correct answer has 1 point . "
@@ -86,7 +86,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={recipe}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/u8vkqa8koxufammikypp"
               isBlog={false}
               title="Recipe Application"
               description="It's an application were users can find almost every recipe's including their ingredients list.Also users can search their recipes."
@@ -97,7 +97,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ultra}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/ffmw3mlhsfgdgzfhqdpy"
               isBlog={false}
               title="Ultra Template"
               description="Ultra is an opensource template for web developers as well as for  designers.The template is under MIT license and free to use and edit ."
@@ -108,7 +108,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={gitfire}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/undyynnqgvb4ku4uvs9d"
               isBlog={false}
               title="Git Finder"
               description="Git-Finder is a Github firebase application to search the github users and their repository lists. The application shows the public repositories of desired users and also their availablity to work ."
@@ -119,7 +119,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pokedex}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/w1fygfhzqlnuq0zbbtyr"
               isBlog={false}
               title="Pokedex"
               description="Pokedex is a pokemon character listing application. The application uses pokmon api to get data and shows features of each charactes."
@@ -130,7 +130,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={movieland}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/swqginfbtisamm18ugvj"
               isBlog={false}
               title="Movie Land"
               description="Movie Land is a movie searching application built using Reactjs.The application is fully responsive in all Devices and has a search option to search movies"
@@ -140,7 +140,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={breakingbad}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/ms88uaajeapjh8ojpkhk"
               isBlog={false}
               title="Breaking Bad Cast"
               description="Breaking Bad Cast is a fan-made website which shows all the characters from the Great American TV Series Breaking Bad"
@@ -150,7 +150,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={advicegenerator}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/omf9rtppzklgumjciu3z"
               isBlog={false}
               title="Advice Generator"
               description="Advice Generator is web-application which generates advices / quotes. Users will get unique advices on every refresh . "
@@ -160,7 +160,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={weather}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/fgkennclxziajs2iifgd"
               isBlog={false}
               title="Weather Application"
               description="Weather Application using React Js . The applicaiton uses api from the openweather website. Users can search the Weather based on city/country.The application is Bootstrapped with Create React App ."
@@ -170,7 +170,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={crypto}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/hfjquc2cjidod6iev1b2"
               isBlog={false}
               title="Crypto Tracker"
               description="A Portfolio Project that Updates The Value of Crpto Currencies.The application uses API from the website CoinGecko .This is a Next.js project bootstrapped with create-next-app."
@@ -180,7 +180,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={contact}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/selwaninreiylqr6mmlv"
               isBlog={false}
               title="Contact Application"
               description="Contacts is a user-contact saving application using ReactJs and Google Firebase.The application can perform all CRUD operations and also user can upload images related to that particular contact."
@@ -190,7 +190,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={banking}
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/ogvvgij7vveb0qmqg8xk"
               isBlog={false}
               title="Banking UI Template"
               description="Banking UI Template is a UI template for banking sector . The whole website is crafted using Bootstrap"
