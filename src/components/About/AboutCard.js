@@ -4,17 +4,6 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import { Link } from "react-router-dom";
 
-// Hey everyone, it's Ahmad Swalih from the vibrant landscapes of Kerala, India!
-
-// I'm not your typical web developer; I'm a passionate self-learner who delved into coding,
-//and now, after three fantastic years, I've crafted 36 diverse projects. My journey led me through a transformative three-month internship at WebSniffer,
-//a German-based company, and exciting collaborations that shaped my unique perspective.
-
-// Beyond the digital realm, I bring a touch of design magic. I started my adventure in poster designing using Gimp, proudly showcasing 12 projects on Behance.
-
-// When I'm not immersed in the world of tech, you'll find me making strategic moves on the chessboard, flipping through the pages of a good book, or exploring
-//new places. Currently, I'm steering the ship as [Your Current Role] at [Your Current Company], adding my touch to the world of technology and design.
-
 function AboutCard() {
   return (
     <Card className="quote-card-view">
