@@ -34,7 +34,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Graphic Designing especially Post Designs.
+                  Graphic Designing especially Poster Designs.
                 </b>
               </i>
               <br />
@@ -79,7 +79,8 @@ function Home2() {
                   href="https://github.com/ahmadswalih"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons">
+                  className="icon-colour  home-social-icons"
+                >
                   <AiFillGithub />
                 </a>
               </li>
@@ -88,7 +89,8 @@ function Home2() {
                   href="https://www.behance.net/ahmadswalihcm"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons">
+                  className="icon-colour  home-social-icons"
+                >
                   <AiOutlineBehance />
                 </a>
               </li>
@@ -97,7 +99,8 @@ function Home2() {
                   href="https://www.linkedin.com/in/ahmad-swalih-cm-6429881b5/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons">
+                  className="icon-colour  home-social-icons"
+                >
                   <FaLinkedinIn />
                 </a>
               </li>
@@ -106,7 +109,8 @@ function Home2() {
                   href="https://instagram.com/swalih_ahmd_"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons">
+                  className="icon-colour home-social-icons"
+                >
                   <AiFillInstagram />
                 </a>
               </li>
