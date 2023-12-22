@@ -4,29 +4,58 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import { Link } from "react-router-dom";
 
+// Hey everyone, it's Ahmad Swalih from the vibrant landscapes of Kerala, India!
+
+// I'm not your typical web developer; I'm a passionate self-learner who delved into coding,
+//and now, after three fantastic years, I've crafted 36 diverse projects. My journey led me through a transformative three-month internship at WebSniffer,
+//a German-based company, and exciting collaborations that shaped my unique perspective.
+
+// Beyond the digital realm, I bring a touch of design magic. I started my adventure in poster designing using Gimp, proudly showcasing 12 projects on Behance.
+
+// When I'm not immersed in the world of tech, you'll find me making strategic moves on the chessboard, flipping through the pages of a good book, or exploring
+//new places. Currently, I'm steering the ship as [Your Current Role] at [Your Current Company], adding my touch to the world of technology and design.
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ahmad Swalih</span> from{" "}
-            <span className="purple"> Kerala, India.</span>
-            <br /> <br /> I am a passionate self learner .I started web
-            development after my 10th standard and now I have an experience of 2
-            years in web development and builded about{" "}
-            <span className="purple"> 36</span> projects in Reactjs and also I
-            have completed a three months of internship in WebSniffer - a german
-            based company.
+            Hi Everyone, It's <span className="purple">Ahmad Swalih</span> from
+            the{" "}
+            <span className="purple">
+              {" "}
+              vibrant landscapes of Kerala, India!
+            </span>
+            <br /> <br /> I'm not your typical web developer; I'm a passionate
+            self-learner who delved into coding, and now, after three fantastic
+            years, I've crafted <span className="purple"> 36</span> diverse
+            projects. My journey led me through a transformative three-month
+            internship at WebSniffer, a German-based company, and exciting
+            collaborations that shaped my unique perspective.
             <br />
             <br />
-            Apart from coding, I have a Decent Design background . Started
-            Poster designing using Gimp and published about{" "}
-            <span className="purple">12</span> projects in Behance. <br />
+            Beyond the digital realm, I bring a touch of design magic. I started
+            my adventure in poster designing using Gimp, proudly showcasing{" "}
+            <span className="purple">12</span> projects on Behance. <br />
             <br />
-            some other activities that I love to do!
+            When I'm not immersed in the world of tech, you'll find me making
+            strategic moves on the chessboard, flipping through the pages of a
+            good book, or exploring new places. Currently, I'm steering the ship
+            as Cheif Technology Officer (CTO) at{" "}
+            <a
+              className="purple"
+              href="https://kkscapitals.com"
+              rel="_noreferrer"
+              target="_blank"
+            >
+              KKS Capitals
+            </a>
+            , adding my touch to the world of technology and design. some other
+            activities that I love to do!
+            <br />
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Chess
             </li>
@@ -36,7 +65,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
+          </ul> */}
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
