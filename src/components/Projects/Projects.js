@@ -2,22 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import quiz from "../../Assets/Projects/quiz.png";
-import pokedex from "../../Assets/Projects/pokedex.png";
-import gitfire from "../../Assets/Projects/gitfire.png";
-import recipe from "../../Assets/Projects/recipe.png";
-import shorty from "../../Assets/Projects/shorty.png";
-import ultra from "../../Assets/Projects/ultra.png";
-import breakingbad from "../../Assets/Projects/breakingbad.png";
-import advicegenerator from "../../Assets/Projects/advicegenerator.png";
-import movieland from "../../Assets/Projects/movieland.png";
-import weather from "../../Assets/Projects/weather.png";
-import crypto from "../../Assets/Projects/crypto.png";
-import contact from "../../Assets/Projects/contact.png";
-import banking from "../../Assets/Projects/banking.png";
-import dnslookup from "../../Assets/Projects/dnslookup.png";
-import rayeesportfolio from "../../Assets/Projects/rayees-portfolio.png";
-import hilinkdemo from "../../Assets/Projects/hilink-demo.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
