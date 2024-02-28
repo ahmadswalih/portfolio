@@ -12,9 +12,24 @@ function Projects() {
           <strong className="purple">Projects That I'have worked on </strong>
         </h1>
         <p style={{ color: "white" }}>
-          click on the "demo" to view the project
+          click on the{" "}
+          <span style={{ fontStyle: "bold" }} className="purple">
+            {" "}
+            "view the project "{" "}
+          </span>
+          button to view the project
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/hnxpixmij2kl5n2ueupf"
+              isBlog={false}
+              title="The Kedye - Ecommerce Shop "
+              description="The Kedye is an ecommerce application for selling Premium Jwelleries , Dresses and all . It's built on top of Shopify"
+              //ghLink="https://github.com/ahmadswalih/dns-lookup"
+              demoLink="https://ecommerce.ahmadswalih.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/e8s9xi2afxhllvucz0hs"
