@@ -103,6 +103,16 @@ function NavBar() {
                 <HiArrowNarrowRight style={{ marginBottom: "2px" }} /> Blog
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                href="https://xn--rvcxw3b0nqb.com/"
+                target=""
+                onClick={() => updateExpanded(false)}
+              >
+                <HiArrowNarrowRight style={{ marginBottom: "2px" }} />
+                Malayalam Blog
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
