@@ -48,7 +48,7 @@ function Projects() {
               title="The Kedye - Ecommerce Shop "
               description="The Kedye is an ecommerce application for selling Premium Jwelleries , Dresses and all . It's built on top of Shopify"
               //ghLink="https://github.com/ahmadswalih/dns-lookup"
-              demoLink="https://ecommerce.ahmadswalih.com/"
+              demoLink="https://kedya.ahmadswalih.com/"
             />
           </Col>
           <Col md={4} className="project-card">
