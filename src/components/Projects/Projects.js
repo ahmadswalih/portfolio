@@ -22,6 +22,27 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/tdjdtc8xkdx0ue0abvfq"
+              isBlog={false}
+              title="CountUp."
+              description="Countup is an application to tally the number of repeatative word in a youtube video , user just has to submit a youtube url and the word that he/she wants to tally"
+              //ghLink="https://github.com/ahmadswalih/dns-lookup"
+              demoLink="https://wordup.ahmadswalih.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/ftc9b4f3k7gt4pqaeoid"
+              isBlog={false}
+              title="TrumpLaughs"
+              description="TrumpLaughs is a Funny Hobby project built on a coozy sunday. The application will list the dumbest things said by Ex.American President Donald Trump. Not just listing , it will give the source link and the date for the things that he said"
+              //ghLink="https://github.com/ahmadswalih/dns-lookup"
+              demoLink="https://trumplaughs.ahmadswalih.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/hnxpixmij2kl5n2ueupf"
               isBlog={false}
               title="The Kedye - Ecommerce Shop "
