@@ -42,7 +42,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/ftc9b4f3k7gt4pqaeoid"
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/l9fh2dnozkfgsmbmhxsp"
               isBlog={false}
               title="Image to Audio Story"
               description="Image To Audio Story is a application using multiple hugging face models and llm. The application changes a normal image to audio story."
