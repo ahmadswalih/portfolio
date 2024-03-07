@@ -186,7 +186,7 @@ function Projects() {
               title="Breaking Bad Cast"
               description="Breaking Bad Cast is a fan-made website which shows all the characters from the Great American TV Series Breaking Bad"
               ghLink="https://github.com/ahmadswalih/breaking-bad-website"
-              demoLink="https://breakingbad-proj.netlify.app/"
+              // demoLink="https://breakingbad-proj.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
