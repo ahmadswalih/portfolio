@@ -87,7 +87,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.behance.net/ahmadswalihcm"
+                href="https://www.instagram.com/designed_by_swalih/"
                 target="_blank"
                 onClick={() => updateExpanded(false)}
               >
