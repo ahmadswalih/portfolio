@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/tdjdtc8xkdx0ue0abvfq"
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/sn3bpztw0xljj1tolgk2"
               isBlog={false}
               title="Chaiwala"
               description="Chaiwala is a application that lists great things said by pm narendra modi."
