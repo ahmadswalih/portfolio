@@ -24,6 +24,16 @@ function Projects() {
             <ProjectCard
               imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/tdjdtc8xkdx0ue0abvfq"
               isBlog={false}
+              title="Chaiwala"
+              description="Chaiwala is a application that lists great things said by pm narendra modi."
+              ghLink="https://github.com/ahmadswalih/chaiwala"
+              demoLink="https://chaiwala.ahmadswalih.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/tdjdtc8xkdx0ue0abvfq"
+              isBlog={false}
               title="CountUp."
               description="Countup is an application to tally the number of repeatative word in a youtube video , user just has to submit a youtube url and the word that he/she wants to tally"
               //ghLink="https://github.com/ahmadswalih/dns-lookup"
