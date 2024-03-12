@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/sn3bpztw0xljj1tolgk2"
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/tczpbck5ks1hdirhg0ce"
               isBlog={false}
               title="Chaiwala"
               description="Chaiwala is a application that lists great things said by pm narendra modi."
@@ -52,7 +52,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/l9fh2dnozkfgsmbmhxsp"
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/qckivt1wwgxsm7p5lslt"
               isBlog={false}
               title="Image to Audio Story"
               description="Image To Audio Story is a application using multiple hugging face models and llm. The application changes a normal image to audio story."
