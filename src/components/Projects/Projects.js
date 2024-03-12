@@ -22,6 +22,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/n1fitjivpjhz2qwe7ls9"
+              isBlog={false}
+              title="Prompts For Devs"
+              description="The application will help Developers to craft best AI Prompts for their development needs. There are around 200+ prompts available."
+              ghLink="https://github.com/ahmadswalih/prompt-for-devs"
+              demoLink="https://prompts.ahmadswalih.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/tczpbck5ks1hdirhg0ce"
               isBlog={false}
               title="Chaiwala"
