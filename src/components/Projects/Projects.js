@@ -22,6 +22,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/lnuhfozn5gmt4cveoq1t"
+              isBlog={false}
+              title="Excuse Generator"
+              description="The application will Generate Random excuses for your use cases. "
+              ghLink="https://github.com/ahmadswalih/excuse-generator"
+              demoLink="https://excuse-generator.ahmadswalih.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/n1fitjivpjhz2qwe7ls9"
               isBlog={false}
               title="Prompts For Devs"
