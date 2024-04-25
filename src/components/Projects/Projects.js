@@ -22,6 +22,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/zxsxjnbbfzcoft8z96ez"
+              isBlog={false}
+              title="Monday Motivation for developers"
+              description="The application will Generate a Monday Motivation Quote for developers.   "
+              ghLink="https://github.com/ahmadswalih/monday-motivation"
+              demoLink="https://mondaymotivation.ahmadswalih.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/lnuhfozn5gmt4cveoq1t"
               isBlog={false}
               title="Excuse Generator"
