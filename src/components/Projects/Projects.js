@@ -22,6 +22,25 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/terfuqbwzgzq0jdu32gq"
+              isBlog={false}
+              title="MyFinMentor- AI Financial Planner"
+              description="MyFinMentor is an AI Financial Planner that helps you to plan your financials."
+              demoLink="https://myfinmentor.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/pw4u9ubakrhtxpcxkkvn"
+              isBlog={false}
+              title="Awaas Sunooo - YT Music Player"
+              description="The application is a curated lis tof Malayalam songs fro wedding Functions."
+              ghLink="https://github.com/ahmadswalih/awaas-suno"
+              demoLink="https://awaassuno.ahmadswalih.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dgxwp8osu/image/upload/f_auto,q_auto/v1/assets-portfolio/zxsxjnbbfzcoft8z96ez"
               isBlog={false}
               title="Monday Motivation for developers"
