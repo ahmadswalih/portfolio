@@ -34,7 +34,7 @@ function AboutCard() {
             as Cheif Technology Officer (CTO) at{" "}
             <a
               className="purple"
-              href="https://kkscapitals.com"
+              href="https://kkscapitals.in"
               rel="_noreferrer"
               target="_blank"
             >
